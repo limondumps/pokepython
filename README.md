@@ -4,9 +4,9 @@ This is a Back-end Technical Test.
 
 The main functionalities are:
 
-*Use of the requests module to obtain information from an api.
-*Create a custom command to save your query information.
-*Publish an API VIEW to query the pokemon information.
+* Use of the requests module to obtain information from an api.
+* Create a custom command to save your query information.
+* Publish an API VIEW to query the pokemon information.
 
 ### Installing
 
@@ -18,12 +18,12 @@ pip install djangorestframework
 
 ## Running
 
-*Start the server
+* Start the server
 ```
 python manage.py runserver 192.168.0.18:8888
 ```
 
-*Adding a Evolution Chain ID 1
+* Adding a Evolution Chain ID 1
 ```
 python manage.py evolution_chain 1
 ```
@@ -79,7 +79,7 @@ Evolution Chain Pokemons:
           Stats Name:hp
 ```
 
-*Request information about "pokemon name"
+* Request information about "pokemon name"
 ```
 http://192.168.0.18:8888/api/pokemon_search/butterfree/
 ```
