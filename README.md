@@ -16,6 +16,16 @@ pip install requests
 pip install djangorestframework
 ```
 
+* Password of superuser
+```
+http://192.168.0.18:8888/admin
+```
+
+```
+* user: pokedemo 
+* password: pokedemo
+```
+
 ## Running
 
 * Start the server
